@@ -9,6 +9,10 @@ app = Flask(__name__)
 def home():
     return render_template("pages/home.jinja")
 
-@app.get("/test")
+@app.get("/test/")
 def test():
     return render_template("pages/testing.jinja")
+
+@app.get("/about/")
+def about():
+    return render_template("pages/about.jinja")
