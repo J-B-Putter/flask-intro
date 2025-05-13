@@ -1,0 +1,19 @@
+#hero {
+    min-width: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pico-primary-background);
+}
+
+#hero h1 {
+    align-items: center;
+    text-align: center;
+}
+
+#rand-num {
+    font-size: 10rem;
+    color: var(--pico-primary-background);
+    font-weight: 100;
+    text-align: center;
+}
